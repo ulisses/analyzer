@@ -1,9 +1,0 @@
-typedef struct aresta {
-	Rua * rua;
-	struct aresta * prox;
-}Arestas;
-
-typedef struct grafo {
-    int size;
-    Arestas* vertices[];
-} Grafo;
