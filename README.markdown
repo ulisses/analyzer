@@ -9,6 +9,35 @@ DEPENDENCIES
 ============
 
 Please read in the wikipage the procedures to install the Haskell libraries.
+
+This page concerns the installation (manually) of the essential Haskell packages and assumes that the user has already installed Cabal in his system.
+
+First install language-c-0.3.2.1, but do not install the version on hackage. Install mine.
+Goto Analyzer/language-c-0.3.2.1 and run this commands:
+
+```java
+runhaskell Setup.hs configure --enable-library-profiling
+runhaskell Setup.hs build
+sudo runhaskell Setup.hs install
+```
+
+After this install the following packages with cabal:
+
+For the following packages,
+
+* MissingH
+* graphviz
+* hxt
+* HaTeX
+* text
+* strict
+* language-c-comments
+* monad-parallel
+* monad-loops
+
+do **sudo cabal install** _name-of-package_
+
+
 After that hit
 
 	make
@@ -18,4 +47,13 @@ and then
 	sudo make install
 	
 in this folder, after that you will have a new command: analyzer
+
+Running
+=======
+
+You can use the makefile to install (make && make install). Make sure you have installed all the Haskell packages.
+
+If you have multiple cores on your machine (n cores), you should use:
+
+	analyzer [OPTIONS] +RTS -N<nrOfCores>
 
