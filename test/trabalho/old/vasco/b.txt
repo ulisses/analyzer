@@ -1,0 +1,17 @@
+Ruas:7
+Vertices:6
+Arestas:7
+1-2 a:150.11:14
+2-5 b:100.11:140
+5-6 f:110.11:141
+6-4 g:120.11:142
+4-5 e:130.11:143
+4-3 d:140.11:144
+3-2 c:160.11:145
+Pontos:
+CC:Restaurante:0:1:9:7:Restaurante do senhor ze das almondegas:1:34.0:13.1:c
+a2:Teatro:0:1:9:7:Ress almondegas:1:34.0:13.1:a
+a3:Restaurante:0:1:9:7:Restaus:1:34.0:134.1:a
+a4:Restaurante:0:1:9:7:Restaudo senhor ze das almondegas:1:34.0:12.1:a
+b1:Igreja:0:1:9:7:bla bla senhor ze das almondegas:1:34.0:12.1:b
+b2:Restaurante:0:1:9:70:Rew do senhor ze das almondgas:1:34.0:11.1:b
