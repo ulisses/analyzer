@@ -8,9 +8,7 @@ where dir is the directory you want to extract metrics from. And [-x,-p,-t] is t
 DEPENDENCIES
 ============
 
-Please read in the wikipage the procedures to install the Haskell libraries.
-
-This page concerns the installation (manually) of the essential Haskell packages and assumes that the user has already installed Cabal in his system.
+This section concerns the installation (manually) of the essential Haskell packages and assumes that the user has already installed Cabal in his system.
 
 First install language-c-0.3.2.1, but do not install the version on hackage. Install mine.
 Goto Analyzer/language-c-0.3.2.1 and run this commands:
@@ -48,10 +46,10 @@ and then
 	
 in this folder, after that you will have a new command: analyzer
 
-Running
-=======
+Running multicore
+=================
 
-You can use the makefile to install (make && make install). Make sure you have installed all the Haskell packages.
+Make sure you have installed all the Haskell packages.
 
 If you have multiple cores on your machine (n cores), you should use:
 
